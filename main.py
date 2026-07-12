@@ -75,3 +75,13 @@ def get_trend(property_name: str, db: Session = Depends(get_db)):
         }
         for r in results
     ]
+
+
+@app.get("/api/v1/elements/{atomic_number}/compounds")
+def get_element_compounds(atomic_number: int, db: Session = Depends(get_db)):
+    from sqlalchemy import text
+    result = db.execute(
+        text("SELECT * FROM compounds WHERE primary_element_atomic_number = :z ORDER BY compound_class, formula"),
+        {"z": atomic_number}
+    ).fetchall()
+    return [dict(row._mapping) for row in result]
