@@ -887,4 +887,224 @@ COMPOUNDS = [
     "environmental_impact": "Very toxic to aquatic organisms.",
     "biodegradable": False, "ozone_depleting": False, "greenhouse_gas": False,
     "discovery_year": None,
-    "uses": "Fungicide, prec
+    "uses": "Fungicide (Bordeaux mixture component), wood preservative, precursor to other Cu compounds.",
+    "industrial_production_method": "CuSO4 + 2NaOH → Cu(OH)2↓ + Na2SO4",
+    "notes": "Blue precipitate confirms Cu2+ in qualitative analysis. Decomposes on heating to CuO (black) + H2O. Dissolves in NH3 solution to form deep blue tetraamminecopper(II): Cu(OH)2 + 4NH3 → [Cu(NH3)4]2+ + 2OH-.",
+    "data_source": "NIST WebBook, CRC Handbook 97th Ed",
+  },
+
+  # ── TRANSITION METALS: ZINC (Z=30) ──────────────────────────
+  {
+    "formula": "ZnO", "name_common": "Zinc oxide",
+    "name_iupac": "Zinc oxide", "cas_number": "1314-13-2",
+    "primary_element_atomic_number": 30, "primary_element_symbol": "Zn",
+    "oxidation_state_of_element": 2, "compound_class": "oxide",
+    "molecular_mass": 81.38, "physical_state_298k": "solid",
+    "color": "white", "appearance": "White powder (turns yellow when hot)",
+    "odor": "Odorless", "melting_point": 2248.0, "boiling_point": None,
+    "density": 5.606, "solubility_in_water": "insoluble",
+    "molecular_geometry": "ionic lattice (wurtzite)", "electron_pair_geometry": "tetrahedral",
+    "hybridization": "sp3", "bond_angle": "109.5°", "vsepr_notation": None,
+    "is_polar": None, "dipole_moment": None,
+    "coordination_number": 4, "ligands": None,
+    "is_acid": True, "is_base": True, "is_amphoteric": True,
+    "acid_base_notes": "Amphoteric oxide. With acid: ZnO + H2SO4 → ZnSO4 + H2O. With base: ZnO + 2NaOH + H2O → Na2[Zn(OH)4].",
+    "std_enthalpy_formation": -350.5, "std_gibbs_free_energy": -320.5,
+    "std_entropy": 43.7, "lattice_energy": -4142.0,
+    "ghs_hazard_codes": "H400, H410",
+    "nfpa_health": 1, "nfpa_flammability": 0, "nfpa_reactivity": 0,
+    "ld50_mg_kg": None, "is_toxic": False, "is_carcinogenic": False,
+    "environmental_impact": "Very toxic to aquatic life. Accumulates in sediments.",
+    "biodegradable": False, "ozone_depleting": False, "greenhouse_gas": False,
+    "discovery_year": None,
+    "uses": "Sunscreen (UV blocker), rubber vulcanization, white paint pigment, semiconductor, antibacterial coatings.",
+    "industrial_production_method": "2Zn + O2 → 2ZnO or thermal oxidation of zinc vapor.",
+    "notes": "Amphoteric — like Al2O3. White when cold, yellow when hot (thermochromic). Wurtzite crystal structure. Important semiconductor (band gap 3.37 eV). Used in varistors and LEDs.",
+    "data_source": "NIST WebBook, CRC Handbook 97th Ed",
+  },
+  {
+    "formula": "Zn(OH)2", "name_common": "Zinc hydroxide",
+    "name_iupac": "Zinc hydroxide", "cas_number": "20427-58-1",
+    "primary_element_atomic_number": 30, "primary_element_symbol": "Zn",
+    "oxidation_state_of_element": 2, "compound_class": "hydroxide",
+    "molecular_mass": 99.40, "physical_state_298k": "solid",
+    "color": "white", "appearance": "White amorphous solid",
+    "odor": "Odorless", "melting_point": None, "boiling_point": None,
+    "density": 3.053, "solubility_in_water": "insoluble",
+    "molecular_geometry": "ionic", "electron_pair_geometry": "ionic",
+    "hybridization": "ionic", "bond_angle": None, "vsepr_notation": None,
+    "is_polar": None, "dipole_moment": None,
+    "coordination_number": None, "ligands": None,
+    "is_acid": True, "is_base": True, "is_amphoteric": True,
+    "acid_base_notes": "Amphoteric hydroxide. As base: Zn(OH)2 + 2HCl → ZnCl2 + 2H2O. As acid: Zn(OH)2 + 2NaOH → Na2[Zn(OH)4] (zincate). Dissolves in excess NH3: Zn(OH)2 + 4NH3 → [Zn(NH3)4]2+ + 2OH-. Ksp = 3×10⁻¹⁷.",
+    "std_enthalpy_formation": -641.9, "std_gibbs_free_energy": -553.5,
+    "std_entropy": 81.2, "lattice_energy": None,
+    "ghs_hazard_codes": "H400, H410",
+    "nfpa_health": 1, "nfpa_flammability": 0, "nfpa_reactivity": 0,
+    "ld50_mg_kg": None, "is_toxic": False, "is_carcinogenic": False,
+    "environmental_impact": "Toxic to aquatic life.",
+    "biodegradable": False, "ozone_depleting": False, "greenhouse_gas": False,
+    "discovery_year": None,
+    "uses": "Antiseptic creams, cosmetics, fungicide, analytical chemistry.",
+    "industrial_production_method": "ZnSO4 + 2NaOH → Zn(OH)2↓ + Na2SO4",
+    "notes": "Classic amphoteric hydroxide example alongside Al(OH)3. Dissolves in excess base to form zincate [Zn(OH)4]2-. Also dissolves in NH3 forming tetraamine complex. White precipitate in qualitative analysis.",
+    "data_source": "NIST WebBook, CRC Handbook 97th Ed",
+  },
+  {
+    "formula": "ZnSO4", "name_common": "Zinc sulfate",
+    "name_iupac": "Zinc sulfate", "cas_number": "7733-02-0",
+    "primary_element_atomic_number": 30, "primary_element_symbol": "Zn",
+    "oxidation_state_of_element": 2, "compound_class": "salt",
+    "molecular_mass": 161.47, "physical_state_298k": "solid",
+    "color": "white", "appearance": "White crystalline powder (heptahydrate = white vitriol)",
+    "odor": "Odorless", "melting_point": 953.0, "boiling_point": None,
+    "density": 3.54, "solubility_in_water": "soluble",
+    "molecular_geometry": "ionic", "electron_pair_geometry": "ionic",
+    "hybridization": "ionic", "bond_angle": None, "vsepr_notation": None,
+    "is_polar": None, "dipole_moment": None,
+    "coordination_number": None, "ligands": None,
+    "is_acid": True, "is_base": False, "is_amphoteric": False,
+    "acid_base_notes": "Acidic salt. Zn2+ hydrolyzes slightly. pH ≈ 4.5.",
+    "std_enthalpy_formation": -982.8, "std_gibbs_free_energy": -871.5,
+    "std_entropy": 110.5, "lattice_energy": None,
+    "ghs_hazard_codes": "H302, H318, H400, H410",
+    "nfpa_health": 2, "nfpa_flammability": 0, "nfpa_reactivity": 0,
+    "ld50_mg_kg": 2200.0, "is_toxic": True, "is_carcinogenic": False,
+    "environmental_impact": "Toxic to aquatic life at high concentrations.",
+    "biodegradable": False, "ozone_depleting": False, "greenhouse_gas": False,
+    "discovery_year": None,
+    "uses": "Zinc supplement, agriculture (Zn-deficient soils), electroplating, viscose rayon production.",
+    "industrial_production_method": "Zn + H2SO4 → ZnSO4 + H2↑",
+    "notes": "White vitriol (ZnSO4·7H2O). Contrast with green vitriol (FeSO4) and blue vitriol (CuSO4). Essential micronutrient for plants and humans.",
+    "data_source": "NIST WebBook, CRC Handbook 97th Ed",
+  },
+
+  # ── TRANSITION METALS: CHROMIUM (Z=24) ──────────────────────
+  {
+    "formula": "Cr2O3", "name_common": "Chromium(III) oxide",
+    "name_iupac": "Dichromium trioxide", "cas_number": "1308-38-9",
+    "primary_element_atomic_number": 24, "primary_element_symbol": "Cr",
+    "oxidation_state_of_element": 3, "compound_class": "oxide",
+    "molecular_mass": 151.99, "physical_state_298k": "solid",
+    "color": "dark green", "appearance": "Dark green powder (eskolaite)",
+    "odor": "Odorless", "melting_point": 2708.0, "boiling_point": 4270.0,
+    "density": 5.22, "solubility_in_water": "insoluble",
+    "molecular_geometry": "ionic lattice (corundum structure)", "electron_pair_geometry": "ionic lattice",
+    "hybridization": "ionic", "bond_angle": None, "vsepr_notation": None,
+    "is_polar": None, "dipole_moment": None,
+    "coordination_number": 6, "ligands": None,
+    "is_acid": True, "is_base": True, "is_amphoteric": True,
+    "acid_base_notes": "Amphoteric oxide. With acid: Cr2O3 + 6HCl → 2CrCl3 + 3H2O. With fused base: Cr2O3 + 2NaOH → 2NaCrO2 + H2O. Less reactive than Al2O3 toward acids and bases.",
+    "std_enthalpy_formation": -1139.7, "std_gibbs_free_energy": -1058.1,
+    "std_entropy": 81.2, "lattice_energy": None,
+    "ghs_hazard_codes": "H317, H340, H350",
+    "nfpa_health": 2, "nfpa_flammability": 0, "nfpa_reactivity": 0,
+    "ld50_mg_kg": None, "is_toxic": True, "is_carcinogenic": True,
+    "environmental_impact": "Cr(III) less toxic than Cr(VI). Some carcinogenicity concerns.",
+    "biodegradable": False, "ozone_depleting": False, "greenhouse_gas": False,
+    "discovery_year": None,
+    "uses": "Green pigment (chrome green), polishing compound (jewelers rouge), refractory material.",
+    "industrial_production_method": "Na2Cr2O7 + S → Cr2O3 + Na2SO4 + SO2",
+    "notes": "Same corundum structure as Al2O3 and Fe2O3. Green color from Cr3+ d-d transitions. Ruby = Al2O3 doped with Cr2O3 (red). Emerald = Be3Al2Si6O18 with Cr3+ impurity (green). Amphoteric but less so than Al2O3.",
+    "data_source": "NIST WebBook, CRC Handbook 97th Ed",
+  },
+  {
+    "formula": "CrO3", "name_common": "Chromium trioxide",
+    "name_iupac": "Chromium(VI) oxide", "cas_number": "1333-82-0",
+    "primary_element_atomic_number": 24, "primary_element_symbol": "Cr",
+    "oxidation_state_of_element": 6, "compound_class": "oxide",
+    "molecular_mass": 99.99, "physical_state_298k": "solid",
+    "color": "dark red", "appearance": "Dark red-orange flaky crystals",
+    "odor": "Odorless", "melting_point": 469.0, "boiling_point": None,
+    "density": 2.70, "solubility_in_water": "soluble",
+    "molecular_geometry": "polymeric chains (CrO4 tetrahedra sharing corners)", "electron_pair_geometry": "tetrahedral",
+    "hybridization": "sp3", "bond_angle": "~130°", "vsepr_notation": None,
+    "is_polar": None, "dipole_moment": None,
+    "coordination_number": 4, "ligands": None,
+    "is_acid": True, "is_base": False, "is_amphoteric": False,
+    "acid_base_notes": "Strongly acidic oxide. Dissolves in water to form chromic acid (H2CrO4) and dichromic acid (H2Cr2O7). Powerful oxidizing agent.",
+    "std_enthalpy_formation": -589.5, "std_gibbs_free_energy": -506.2,
+    "std_entropy": 72.0, "lattice_energy": None,
+    "ghs_hazard_codes": "H271, H301, H311, H314, H317, H330, H334, H340, H350, H361, H372, H400, H410",
+    "nfpa_health": 3, "nfpa_flammability": 0, "nfpa_reactivity": 3,
+    "ld50_mg_kg": 80.0, "is_toxic": True, "is_carcinogenic": True,
+    "environmental_impact": "Cr(VI) — persistent carcinogen. Extremely toxic to all aquatic life.",
+    "biodegradable": False, "ozone_depleting": False, "greenhouse_gas": False,
+    "discovery_year": None,
+    "uses": "Oxidizing agent in organic synthesis, chromium plating, wood preservation. Being phased out.",
+    "industrial_production_method": "Na2Cr2O7 + H2SO4 → CrO3 + Na2SO4 + H2O",
+    "notes": "Cr(VI) — known human carcinogen. Most hazardous Cr compound. Sets ethanol on fire on contact. Forms H2CrO4 and H2Cr2O7 in water. Being replaced by greener oxidants in industry.",
+    "data_source": "NIST WebBook, CRC Handbook 97th Ed",
+  },
+
+  # ── TRANSITION METALS: MANGANESE (Z=25) ─────────────────────
+  {
+    "formula": "MnO2", "name_common": "Manganese dioxide",
+    "name_iupac": "Manganese(IV) oxide", "cas_number": "1313-13-9",
+    "primary_element_atomic_number": 25, "primary_element_symbol": "Mn",
+    "oxidation_state_of_element": 4, "compound_class": "oxide",
+    "molecular_mass": 86.94, "physical_state_298k": "solid",
+    "color": "black", "appearance": "Black powder or crystals (pyrolusite)",
+    "odor": "Odorless", "melting_point": 808.0, "boiling_point": None,
+    "density": 5.026, "solubility_in_water": "insoluble",
+    "molecular_geometry": "ionic lattice (rutile structure)", "electron_pair_geometry": "octahedral",
+    "hybridization": "ionic", "bond_angle": None, "vsepr_notation": None,
+    "is_polar": None, "dipole_moment": None,
+    "coordination_number": 6, "ligands": None,
+    "is_acid": False, "is_base": True, "is_amphoteric": False,
+    "acid_base_notes": "Weakly basic oxide. Dissolves in acids under reducing conditions: MnO2 + 4HCl → MnCl2 + Cl2 + 2H2O. Oxidizing acid: MnO2 + H2SO4(hot conc) → MnSO4 + H2O + ½O2.",
+    "std_enthalpy_formation": -520.0, "std_gibbs_free_energy": -465.1,
+    "std_entropy": 53.1, "lattice_energy": None,
+    "ghs_hazard_codes": "H302, H332, H373",
+    "nfpa_health": 1, "nfpa_flammability": 0, "nfpa_reactivity": 1,
+    "ld50_mg_kg": 3478.0, "is_toxic": False, "is_carcinogenic": False,
+    "environmental_impact": "Low environmental impact. Naturally abundant mineral.",
+    "biodegradable": False, "ozone_depleting": False, "greenhouse_gas": False,
+    "discovery_year": None,
+    "uses": "Dry cell batteries (Leclanché and alkaline), oxidizing agent, catalysis (Cl2 production from HCl), glass decolorization.",
+    "industrial_production_method": "Mined as pyrolusite or Mn + O2 → MnO2.",
+    "notes": "Most important Mn compound. Rutile structure. Catalyst for H2O2 decomposition: 2H2O2 → 2H2O + O2. Reacts with HCl to release Cl2. Key component in dry cell batteries (cathode). Mn exhibits highest number of oxidation states of any element (+1 to +7).",
+    "data_source": "NIST WebBook, CRC Handbook 97th Ed",
+  },
+]
+
+
+def seed_more_compounds():
+    print("Starting compound seed...")
+    try:
+        with engine.connect() as conn:
+            result = conn.execute(text("SELECT COUNT(*) FROM compounds"))
+            count = result.scalar()
+            print(f"Current compound count in database: {count}")
+
+            inserted = 0
+            skipped = 0
+            for c in COMPOUNDS:
+                # Check if compound already exists
+                existing = conn.execute(
+                    text("SELECT id FROM compounds WHERE formula = :f AND primary_element_atomic_number = :z"),
+                    {"f": c["formula"], "z": c["primary_element_atomic_number"]}
+                ).fetchone()
+
+                if existing:
+                    skipped += 1
+                    continue
+
+                cols = ', '.join(c.keys())
+                vals = ', '.join([f":{k}" for k in c.keys()])
+                sql = text(f"INSERT INTO compounds ({cols}) VALUES ({vals})")
+                conn.execute(sql, c)
+                inserted += 1
+                print(f"  Inserted: {c['formula']} ({c['name_common']})")
+
+            conn.commit()
+            print(f"\nDone. Inserted: {inserted}, Skipped (already exist): {skipped}")
+
+    except Exception as e:
+        print(f"ERROR: {e}")
+        import traceback
+        traceback.print_exc()
+
+
+if __name__ == "__main__":
+    seed_more_compounds()
